@@ -84,3 +84,24 @@ This guarantees atomic actions instead of generic task lists.
 
 ```bash
 docker build -t smart-companion .
+
+### Run
+docker run -p 8000:8000 smart-companion
+
+### Access Application
+http://localhost:8000/ui
+
+## 🛠 Tech Stack
+### Backend
+-FastAPI
+-SQLite
+-Fernet Encryption
+-Gemini 1.5 Flash (Google Generative AI)
+-Uvicorn
+### Frontend
+-React (Vite)
+-TailwindCSS
+-Web Speech API
+
+### Deployment
+Docker (single container)
