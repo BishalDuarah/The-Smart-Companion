@@ -82,7 +82,6 @@ This guarantees atomic actions instead of generic task lists.
 
 ### Build
 
-```bash
 docker build -t smart-companion .
 
 ### Run
@@ -105,3 +104,4 @@ http://localhost:8000/ui
 
 ### Deployment
 Docker (single container)
+
